@@ -55,4 +55,58 @@ export const CATEGORIES: Category[] = [
       'branch', 'release', 'rollback', 'feature flag', 'A/B test'
     ],
   },
+  {
+    id: 'olympics',
+    name: 'Olympics',
+    description: 'Gold medals, world records, and athletic glory',
+    icon: '🏅',
+    words: [
+      'gold medal', 'silver medal', 'bronze medal', 'podium', 'opening ceremony',
+      'closing ceremony', 'torch relay', 'marathon', 'relay race', 'hurdles',
+      'javelin', 'discus', 'shot put', 'pole vault', 'high jump',
+      'long jump', 'sprint', 'decathlon', 'triathlon', 'gymnastics',
+      'swimming', 'diving', 'wrestling', 'fencing', 'archery',
+      'rowing', 'cycling', 'weightlifting', 'boxing', 'judo',
+      'taekwondo', 'volleyball', 'basketball', 'soccer', 'tennis',
+      'badminton', 'table tennis', 'world record', 'personal best',
+      'disqualified', 'photo finish', 'Olympic village', 'anthem',
+      'medal ceremony', 'sportsmanship', 'doping'
+    ],
+  },
+  {
+    id: 'videogames',
+    name: 'Video Games',
+    description: 'Boss fights, power-ups, and epic loot',
+    icon: '🎮',
+    words: [
+      'respawn', 'power-up', 'boss fight', 'final boss', 'game over',
+      'level up', 'checkpoint', 'save point', 'NPC', 'speedrun',
+      'multiplayer', 'co-op', 'PvP', 'loot', 'inventory',
+      'health bar', 'mana', 'XP', 'DLC', 'patch',
+      'nerf', 'buff', 'hitbox', 'frame rate', 'lag',
+      'glitch', 'easter egg', 'side quest', 'main quest', 'open world',
+      'crafting', 'sandbox', 'battle royale', 'roguelike', 'RPG',
+      'FPS', 'indie game', 'leaderboard', 'achievement', 'combo',
+      'critical hit', 'cooldown', 'aggro', 'spawn point', 'tutorial',
+      'cutscene'
+    ],
+  },
+  {
+    id: 'fruits',
+    name: 'Fruits',
+    description: 'From apples to exotic dragon fruit',
+    icon: '🍎',
+    words: [
+      'apple', 'banana', 'orange', 'strawberry', 'blueberry',
+      'raspberry', 'blackberry', 'mango', 'pineapple', 'watermelon',
+      'cantaloupe', 'honeydew', 'grape', 'cherry', 'peach',
+      'plum', 'apricot', 'nectarine', 'kiwi', 'papaya',
+      'guava', 'lychee', 'dragon fruit', 'passion fruit', 'pomegranate',
+      'fig', 'date', 'coconut', 'lime', 'lemon',
+      'grapefruit', 'tangerine', 'persimmon', 'starfruit', 'jackfruit',
+      'durian', 'avocado', 'plantain', 'cranberry', 'gooseberry',
+      'kumquat', 'boysenberry', 'mulberry', 'tamarind', 'rambutan',
+      'acai'
+    ],
+  },
 ];
